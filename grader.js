@@ -47,7 +47,9 @@ var clone = function(fn){
 	return fn.bind({});
 };
 
-
+/*
+	builder
+*/
 var buildfn = function(htmlfile, checksFile) {
     var resp2file = function(result, response) {
         if (result instanceof Error) {
